@@ -22,7 +22,7 @@ function populationHandler (sb) {
 	}
 
 	function SET_URL () {
-		request_url = sb.settings.crowd_request_url+"?value="+sb.settings.population_spread.min+" "+sb.settings.population_spread.max+" ";
+		request_url = sb.settings.crowd_request_url+"?min_dist="+sb.settings.population_spread.min+"&max_dist="+sb.settings.population_spread.max;
 	}
 
 	function SET_POPULATION (d) {
@@ -31,7 +31,7 @@ function populationHandler (sb) {
 		sb.notify({
 			type : "http-get",
 			data: {
-				url: request_url+sb.population.get_size(),
+				url: request_url+'&crowd_size='+sb.population.get_size(),
 				responseType: "receive-population-crowd",
 			}
 		});

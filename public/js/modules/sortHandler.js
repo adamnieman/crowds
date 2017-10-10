@@ -28,7 +28,7 @@ function sortHandler (sb) {
 	}
 
 	function SET_URL () {
-		request_url = sb.settings.crowd_request_url+"?value="+sb.settings.population_spread.min+" "+sb.settings.population_spread.max+" ";
+		request_url = sb.settings.crowd_request_url+"?min_dist="+sb.settings.population_spread.min+"&max_dist="+sb.settings.population_spread.max;
 	}
 
 	function SET_SORT_CATEGORY_CROWD (d) {
@@ -135,7 +135,7 @@ function sortHandler (sb) {
 				type : "http-get",
 				data: {
 					id: propt,
-					url: request_url+sort_categories[propt].integer,
+					url: request_url+"&crowd_size="+sort_categories[propt].integer,
 					responseType: "population-sort-category-crowd",
 				}
 			});

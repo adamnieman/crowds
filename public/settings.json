@@ -1,5 +1,5 @@
 {
-	"crowd_request_url": "crowd/crowd-call.php",
+	"crowd_request_url": "crowd-JSON.php",
 	"population_size": {
 		"min": 10,
 		"max": 2000
