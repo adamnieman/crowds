@@ -1,0 +1,116 @@
+{
+	"crowd_request_url": "crowd/crowd-call.php",
+	"population_size": {
+		"min": 10,
+		"max": 2000
+	},
+	"population_spread": {
+		"min": 1,
+		"max": 2
+	},
+	"population_sort": {
+		"religion": {
+			"description": "Based on religion in England and Wales, 2011",
+			"source": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/religion/articles/religioninenglandandwales2011/2012-12-11",
+			"categories": {
+				"Christian": 59.3,
+				"None": 25.1,
+				"Muslim": 4.8,
+				"Hindu": 1.5,
+				"Sikh": 0.8,
+				"Jewish": 0.5,
+				"Buddhist": 0.4,
+				"Other religion": 0.4,
+				"Unknown": 7.2
+			}
+		},
+		"ethnicity": {
+			"description": "Based on Ethnicity and National identity for England and Wales 2011",
+			"source": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicityandnationalidentityinenglandandwales/2012-12-11",
+			"categories": {
+				"White": 86,
+				"Mixed / multiple": 2.2,
+				"Asian / Asian British": 7.5,
+				"Black": 3.3,
+				"Other": 1
+			}
+		},
+		"nationality": {
+			"description": "Based on Ethnicity and National identity for England and Wales 2011",
+			"source": "https://www.ons.gov.uk/peoplepopulationandcommunity/culturalidentity/ethnicity/articles/ethnicityandnationalidentityinenglandandwales/2012-12-11",
+			"categories": {
+				"British nationals": 90.2,
+				"non-British EU nationals": 5.4,
+				"non-EU nationals": 4.4
+			}
+		},
+		"disability": {
+			"description": "Disability prevalence estimates 2011/12",
+			"source": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/321594/disability-prevalence.pdf",
+			"categories": {
+				"non-disabled": 81.1,
+				"disabled": 18.9
+			}
+		},
+		"age": {
+			"description": "Based on Population Estimates for UK, England and Wales, Scotland and Northern Ireland Mid-2015",
+			"source": "https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/datasets/populationestimatesforukenglandandwalesscotlandandnorthernireland",
+			"categories": {
+				"0-4": 6.2,
+				"5-9": 6.05,
+				"10-14":5.4,
+				"15-19":5.9,
+				"20-24":6.6,
+				"25-29":6.8,
+				"30-24":6.7,
+				"35-39":6.3,
+				"40-44":6.6,
+				"45-49":7.1,
+				"50-54":7.0,
+				"55-59":6.1,
+				"60-64":5.4,
+				"65-69":5.6,
+				"70-74":4.2,
+				"75-79":3.3,
+				"80-84":2.4,
+				"85-90":1.5,
+				"90 and over":0.85
+			}
+		},
+		"poverty": {
+			"description": "Combines Department of Work and Pensions estimates for relative UK poverty after housing costs in 2014/15 with Joseph Rowntree Foundation estimate of 1,252,000 destitute people in UK.",
+			"source": "https://www.gov.uk/government/uploads/system/uploads/attachment_data/file/532416/households-below-average-income-1994-1995-2014-2015.pdf",
+			"categories": {
+				"not living in poverty": 79.000,
+				"living in poverty (not destitute)": 19.077,
+				"destititute": 1.923
+			}
+		},
+		"wealth": {
+			"description": "Wealth in Great Britain Wave 4: 2012 to 2014",
+			"source": "https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/incomeandwealth/compendium/wealthingreatbritainwave4/2012to2014",
+			"categories": {
+				"people who own half the wealth starting from wealthiest": 12.3,
+				"people who own half the wealth starting from poorest": 87.7
+			}
+		},
+		"activity": {
+			"description": "Combines 2011 census data for econonomic activity from ages 16-75 with population data for 2011",
+			"source": "https://www.nomisweb.co.uk/census/2011/qs601ew",
+			"categories": {
+				"Aged 0-15": 18.9,
+				"Aged 75+": 7.8,
+				"Employee part-time": 10.1,
+				"Employee full-time": 28.2,
+				"Self-employed": 7.1,
+				"Unemployed": 3.2,
+				"Economically active student": 2.5,
+				"Economically inactive student": 4.3,
+				"Retired": 10.1,
+				"Home-maker": 3.2,
+				"Long-term sick or disabled": 3.1,
+				"Economically inactive (other)": 1.6
+			}
+		}
+	}
+}
